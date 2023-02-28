@@ -1,0 +1,16 @@
+.like-container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    gap: 1.5em;
+}
+
+#thumb-down-btn, #thumb-up-btn{
+    height: 50px;
+    width: 50px;
+}
+
+.like-container h1 {
+    margin-top: 7px;
+}
+

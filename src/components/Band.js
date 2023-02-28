@@ -15,7 +15,7 @@ function Band(props) {
         <li>{props.style}</li>
       </ul>
       <div className='like-count'>
-      {props.split === '-' ? null : <Like />}
+      {props.split === '-' ? <Like /> : `Band split in ${props.split}`}
       </div>
     </div>
   );
